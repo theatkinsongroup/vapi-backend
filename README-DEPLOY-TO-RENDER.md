@@ -1,18 +1,13 @@
-# Atkinson Group — Vapi Backend (Render)
+# Atkinson Group — Vapi Backend (Render Deployment Guide)
 
-## 1) Create Repo & Push
-- Create a GitHub repo named `vapi-backend`
-- Add these files
-- Commit & push to `main`
+This backend powers the **“david” Vapi recruiting assistant** for The Atkinson Group. It handles:
+- ✅ Appointment booking (Google Calendar)
+- ✅ SMS confirmations (Twilio)
+- ✅ Email + .ICS calendar invites (Office365)
+- ✅ Safety/threat flagging
+- ✅ Number blocking
 
-## 2) Create Render Web Service
-- On Render: New → Web Service
-- Connect GitHub → select `vapi-backend`
-- Environment: Node
-- Build Command: `npm ci`
-- Start Command: `npm start`
-- Region: US
-- Plan: Starter/Basic (avoid free sleeping)
-- Auto-deploy: Yes
+---
 
-## 3) Environment Variables (Render → Web Service → Environment)
+## 1) Folder Structure (for reference)
+

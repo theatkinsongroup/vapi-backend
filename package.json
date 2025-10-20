@@ -1,0 +1,19 @@
+{
+  "name": "vapi-backend",
+  "version": "1.0.0",
+  "description": "Backend API for The Atkinson Group Vapi assistant (booking, SMS, email, safety, blocklist).",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "express": "^4.19.2",
+    "googleapis": "^133.0.0",
+    "nodemailer": "^6.9.13",
+    "twilio": "^5.4.4"
+  }
+}
